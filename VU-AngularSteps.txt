@@ -1,0 +1,14 @@
+1. Install VS Code, Angular and Node.JS of the below versions.
+2. Check the versions:
+	Angular CLI: 19.0.4
+	Node: 22.12.0
+	Package Manager: npm 10.9.0
+	OS: win32 x64
+3. Open the project in VS Code
+4. Open the command prompt (not powershell)
+5. cd Angular1
+6. npm i (or) npm i --f
+7. npm install bootstrap
+8. No need to change styles.css or angular.json if the updated code is there in the project.
+9. json-server --watch db.json (run this to get the local API using db.json)
+10. In another cmd, ng s
