@@ -1,0 +1,22 @@
+p{
+    margin-bottom: 3rem;
+}
+/* Change button background color to black */
+.btn.btn-primary {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 53, 53);
+    border-color: black;
+    color: white;  /* Set text color to white for better contrast */
+  }
+  
+  /* Change button background color to grey on hover */
+  .btn.btn-primary:hover {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    color: black;  /* Keep text color white when hovering */
+  }
+  .img-fluid{
+    width: 15em;
+
+  }

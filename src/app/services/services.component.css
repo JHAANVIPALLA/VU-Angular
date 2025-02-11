@@ -1,0 +1,101 @@
+/* before redesigning */
+/* .btn.btn-primary {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    background-color: rgb(59, 53, 53);
+    border-color: black;
+    color: white; 
+  }
+  
+  .btn.btn-primary:hover {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    color: black;
+  } */
+
+  /* General page styles */
+.services-container {
+  max-width: 72em;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.192);
+  background-color: rgb(39, 80, 99);
+}
+
+/* Page title */
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Services grid layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Individual service card */
+.service-card {
+  padding: 20px;
+  background-color: rgb(156, 241, 241);
+  border: 1px solid rgb(156, 241, 241);
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 90%;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 6px 12px rgb(81, 135, 158);
+}
+
+.service-title {
+  font-size: 1.3rem;
+  color: rgb(170, 39, 83);
+  font-weight: bold;
+
+}
+
+.service-category {
+  font-style: italic;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.service-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* Button container */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+  color: white;  /* Set text color to white for better contrast */
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.btn-primary:hover {
+  background-color: palevioletred;
+  border-color: palevioletred;
+  color: black;
+}

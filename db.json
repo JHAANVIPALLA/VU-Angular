@@ -1,0 +1,46 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Cloud Infrastructure Services",
+      "description": "Offering scalable cloud infrastructure solutions for enterprises.",
+      "price": "5000/month",
+      "category": "Cloud Services"
+    },
+    {
+      "id": 2,
+      "name": "Web App Development",
+      "description": "Custom web applications built using modern frameworks like Angular, React, and Vue.",
+      "price": "Custom Pricing",
+      "category": "Web Development"
+    },
+    {
+      "id": 3,
+      "name": "Mobile App Development",
+      "description": "High-performance iOS and Android apps tailored to your needs.",
+      "price": "15000/project",
+      "category": "Mobile Development"
+    },
+    {
+      "id": 4,
+      "name": "Cybersecurity Solutions",
+      "description": "Comprehensive security solutions to safeguard your business's digital assets.",
+      "price": "7500/month",
+      "category": "Security Services"
+    },
+    {
+      "id": 5,
+      "name": "Data Analytics",
+      "description": "Powerful data analytics for better decision-making.",
+      "price": "18000/project",
+      "category": "Data Services"
+    },
+    {
+      "id": 6,
+      "name": "AI & ML",
+      "description": "AI and ML solutions for automation and predictive analytics.",
+      "price": "20000/project",
+      "category": "AI and ML"
+    }
+  ]
+}

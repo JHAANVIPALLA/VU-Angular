@@ -1,0 +1,35 @@
+<!-- initial response binding -->
+
+<!-- <h2>Services</h2>
+<ul>
+  <li *ngFor="let service of services">
+    <strong>{{ service.name }}</strong><br>
+    <em>{{ service.category }}</em><br>
+    <p>{{ service.description }}</p>
+    <p><strong>Price:</strong> {{ service.price }}</p>
+  </li>
+</ul>
+<a class="btn btn-primary" routerLink="/otherservices">Other Services</a> -->
+
+<!-- alternate method for routerlink -->
+<!-- <button class="btn btn-primary" (click)="navigateToOtherServices()">Other Services</button> -->
+
+
+<!-- after designing the page -->
+<body style="background-color: rgb(39, 80, 99);">
+<div class="services-container">
+    <h2 class="page-title">Our Services</h2>
+    <div class="services-grid">
+      <div *ngFor="let service of services" class="service-card">
+        <h3 class="service-title">{{ service.name }}</h3>
+        <p class="service-category"><em>{{ service.category }}</em></p>
+        <p class="service-description">{{ service.description }}</p>
+        <p class="service-price"><strong>Price:</strong> {{ service.price }}</p>
+      </div>
+    </div>
+    <div class="button-container">
+      <a class="btn btn-primary" routerLink="/otherservices">Other services</a>
+    </div>
+  </div>
+</body>
+  

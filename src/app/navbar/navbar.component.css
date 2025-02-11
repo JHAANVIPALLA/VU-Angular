@@ -1,0 +1,37 @@
+  .navbar-brand {
+    color: palevioletred;
+    font-family: 'Lucida Handwriting', cursive; /* Apply Lucida Handwriting cursive font */
+    animation: float-left-right 5s ease-in-out infinite; /* Horizontal floating animation */
+}
+
+/* Define the horizontal floating animation */
+@keyframes float-left-right {
+    0% {
+        transform: translateX(0); /* Start at the leftmost position */
+    }
+    50% {
+        transform: translateX(100px); /* Move 100px to the right */
+    }
+    100% {
+        transform: translateX(0); /* Return to the original position */
+    }
+}
+
+.navbar-nav .nav-link {
+  color: white; /* Default color */
+}
+/* Change the hover color for navbar links */
+.navbar-nav .nav-link:hover {
+  color: palevioletred; /* Your desired hover color (change this to any color you like) */
+  transition: color 0.3s ease-in-out; /* Optional: Smooth transition for color change */
+}
+
+/* Increase the space between each list item */
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Adjust this value to control the space */
+}
+
+/* Optional: Remove margin from the last item to avoid extra space */
+.navbar-nav .nav-item:last-child {
+  margin-right: -20px;
+}

@@ -1,0 +1,35 @@
+/* Body: Set Flexbox to center content */
+body {
+    display: flex;                   /* Enable Flexbox layout */
+    justify-content: center;         /* Center horizontally */
+    align-items: center;             /* Center vertically */
+    flex-direction: column;          /* Align children (h1, h2, etc.) vertically */
+    height: 30vh;                   /* Take full height of the viewport */
+    margin-left: 40px;     
+    margin-right: 40px;                  /* Remove default margin */
+    font-family: cursive;            /* Set the cursive font */
+    background: none;                /* No background */
+    text-align: justify;             /* Justify text in paragraphs (if any) */
+    font-size: medium;                /* Set font size to large */
+}
+
+/* Heading 2 (h2) styles */
+h2 {
+    font-family: initial; 
+    font-weight: bold;                              /* Use initial font family */
+    text-align: center;                                 /* Center the text */
+    color: rgb(170, 39, 83);                            /* Text color */
+}
+
+/* Optional: If you want to center an image */
+img {
+    max-width: 100%;                /* Make the image responsive */
+    height: auto;                   /* Maintain aspect ratio */
+    margin-bottom: 20px;            /* Optional: space below the image */
+    display: block;                 /* Treat the image as a block element */
+    margin-left: auto;              /* Horizontally center the image */
+    margin-right: auto;             /* Horizontally center the image */
+}
+.center-container{
+    margin-top: 20px;
+}

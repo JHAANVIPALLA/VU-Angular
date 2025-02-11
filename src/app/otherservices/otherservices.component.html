@@ -1,0 +1,21 @@
+<h2 class="page-title">Our Other Services</h2>
+
+<!-- Display services in a grid layout -->
+<div *ngIf="services.length > 0; else loading" class="services-container">
+  <div *ngFor="let service of services" class="service-card">
+    <h3 class="service-title">{{ service.title }}</h3>
+    <p class="service-description">{{ service.description }}</p>
+    <div class="service-details">
+      <p><strong>Price:</strong> ${{ service.price }}</p>
+      <p><strong>Category:</strong> {{ service.category }}</p>
+    </div>
+    <!-- <button class="btn btn-learn-more">Learn More</button> -->
+  </div>
+</div>
+
+<a class="btn btn-primary back-btn" routerLink="/services">Back to Services</a>
+
+<!-- Loading message -->
+<ng-template #loading>
+  <p class="loading-message">Loading services...</p>
+</ng-template>
