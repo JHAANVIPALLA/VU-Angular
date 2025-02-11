@@ -13,6 +13,7 @@ body {
     font-size: medium;                /* Set font size to large */
 }
 
+/* Heading 2 (h2) styles */
 h2 {
     font-family: initial; 
     font-weight: bold;                              /* Use initial font family */
